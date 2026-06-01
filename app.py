@@ -37,7 +37,7 @@ for col, name in zip(cols, PEOPLE):
             save_counts(counts)
             st.rerun()
 
-        if st.button(f"-1", key=f"minus_{name}"):
+        if st.button(f"-1 🤮", key=f"minus_{name}"):
             counts[name] = max(0, counts[name] - 1)
             save_counts(counts)
             st.rerun()
